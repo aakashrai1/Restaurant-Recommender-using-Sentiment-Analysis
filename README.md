@@ -1,12 +1,11 @@
 
 ## Background ##
 
-This project is based on the dataset which was released by Yelp for it's data challenge. 
-Dataset is available at https://www.yelp.com/dataset/download
+This project is based on the dataset which was released by Yelp for its data challenge. Dataset is available at https://www.yelp.com/dataset/download
 
-We used the SQL version to perform operations required in our project since the size of the dataset is huge (7GB).
+We used the SQL version to perform the operations required in our project since the size of the dataset is huge (7GB).
 
-For the code submission purpose we have exported the final table after performing the necessary operations in a txt file which is imported in the main.py file.
+For the code submission purpose, we have exported the final table after performing the necessary operations in a text file which is imported into the main.py file.
 
 ## Dependencies ##
 
@@ -26,7 +25,7 @@ For the code submission purpose we have exported the final table after performin
     ```sh
     $ bokeh serve --show main.py
     ```
-3. Once the bokeh server starts, open the browser window and goto following:
+3. Once the bokeh server starts, open the browser window and goto following
     http://localhost:5006/main
 4. Enjoy!
 
